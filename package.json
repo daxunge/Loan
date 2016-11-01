@@ -1,0 +1,26 @@
+{
+  "name": "Loan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "debug": "react-native run-android",
+    "eslint": "./node_modules/.bin/eslint --fix src/*"
+  },
+  "dependencies": {
+    "fecha": "^2.3.0",
+    "react": "15.3.1",
+    "react-native": "0.32.1",
+    "react-native-button": "^1.7.0",
+    "react-native-image-picker": "^0.22.12",
+    "react-native-looped-carousel": "0.0.12",
+    "react-native-menu": "^0.20.2",
+    "react-native-scrollable-tab-view": "^0.6.0",
+    "react-native-vector-icons": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-plugin-react": "^6.2.2",
+    "eslint-plugin-react-native": "^2.0.0"
+  }
+}
